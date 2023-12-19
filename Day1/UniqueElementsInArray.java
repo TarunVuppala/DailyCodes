@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class UniqueElementsInArray {
@@ -23,5 +22,6 @@ public class UniqueElementsInArray {
                     System.out.print(a[i]+" ");
             }
         }
+        sc.close();
     }
 }

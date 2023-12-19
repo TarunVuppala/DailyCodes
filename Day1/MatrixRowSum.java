@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class MatrixRowSum {
@@ -20,5 +19,6 @@ public class MatrixRowSum {
             }
             System.out.println(cs);
         }
+        sc.close();
     }
 }
