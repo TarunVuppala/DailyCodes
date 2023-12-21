@@ -1,0 +1,11 @@
+n=int(input())
+d={
+    'b':'BattleShip',
+    'c':'Cruiser',
+    'd':'Destroyer',
+    'f':'Frigate'
+}
+while(n>0):
+    ID=input().lower()
+    print(d[ID])
+    n-=1
