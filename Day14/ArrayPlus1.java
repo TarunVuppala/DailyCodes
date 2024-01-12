@@ -8,17 +8,13 @@ public class ArrayPlus1 {
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
-        Solution obj=new Solution();
-        int nPlusOne[]=obj.plusOne(a);
+        int nPlusOne[]=plusOne(a);
         for(int i=0;i<n+1;i++){
             System.out.print(nPlusOne[i]);
         }
         sc.close();
     }
-}
-
-class Solution {
-    public int[] plusOne(int[] digits) {
+    public static int[] plusOne(int[] digits) {
         
        
         for(int i = digits.length-1; i >= 0; i--){
