@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/isomorphic-strings/
-package Day37;
-
 public class isomorphicStrings {
     public static void main(String[] args) {
         String s="egg";

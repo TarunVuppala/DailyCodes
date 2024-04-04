@@ -1,5 +1,4 @@
 // https://www.codechef.com/problems/KITCHENTIME
-package Day37;
 import java.util.*;
 
 public class kitchenTiming {
